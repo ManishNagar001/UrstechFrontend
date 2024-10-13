@@ -1,0 +1,116 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color:#8AC7DB;
+  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color:#1E5162;
+  height:40px;
+  padding-top:20px;
+}
+
+nav li {
+  margin-right: 20px;
+  font-weight: bold;
+}
+nav li:hover {
+  margin-right: 20px;
+  font-weight: bold;
+  color:blue;
+  cursor:pointer;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #666;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 30px;
+  margin: 0;
+  margin:20 20 20 20;
+}
+
+header button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left:100px
+}
+
+header button:hover {
+  background-color : #3e8e41;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  height:20px;
+}
+
+th {
+  background-color: #338BA8;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #338BA8;
+}
+#para{
+  display:flex;
+  margin:10px 10px 10px 10px;
+}
+p{
+  height:70px;
+  width:150px;
+  background-color:#DBA40E;
+  border:2px solid white;
+  padding:25px 5px 5px 5px;
+  margin:15px 20px 10px 10px;
+  border-radius:10px;
+  font-weight:bold;
+  font-size:20px;
+}
